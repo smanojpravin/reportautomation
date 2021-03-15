@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script src="https://www.amcharts.com/lib/4/core.js"></script>
+    <script src="https://www.amcharts.com/lib/4/charts.js"></script>
+    <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+
+<style>
+
+/* Container Styles */
+.panel-body{
+    text-align: center;
+  }
+  
+.panel-warning > .panel-heading {
+  
+  color:  #000000;
+  
+
+  /* background-color:
+  rgb(1,175,238); */
+  
+  border-color:#f353ab;
+  
+  border-top-color:#ccc;
+  border-right-color:#ccc;
+  border-bottom-color:
+  rgb(228, 236, 255);
+  border-left-color:
+  
+  rgb(217, 228, 255);
+  
+  }
+
+
+
+#container {
+  width: 1000px;
+  margin: 20px auto 0 auto;
+  background-color: #E288A0;
+  background-color: rgba(255,255,255,0.5);
+  
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+</style>
+</head>
+<body>
+
+    
+      <section id ="container">
+      <div class="panel panel-warning">
+
+      <!-- <div class="panel-heading">Chart view</div> -->
+      <div class="panel-body">
+        <div class="container">
+            <div class="col-sm-10 col-sm-push-1 col-md-8 col-md-push-2">
+                <h2>Report Automation</h2>
+               <p>Lucas ipsum dolor sit amet darth lando qui-gonn mara droid jade qui-gonn skywalker wedge lars. Ben antilles chewbacca palpatine mothma fisto binks mara. Wicket greedo c-3p0 han lars mara darth. Darth binks wookiee mara luuke amidala. Lando kessel jango wicket. Moff jango dantooine luuke skywalker obi-wan. Darth mandalore binks leia solo moff yoda. Darth c-3p0 maul ben jar lando. Jabba ahsoka grievous mandalorians kenobi wookiee chewbacca. Binks calrissian tatooine baba jango k-3po darth calamari yavin.</p>
+               <p>
+                  Wicket sidious organa skywalker mandalore mon qui-gonn fisto. Leia grievous biggs bespin calamari. Alderaan luuke darth hutt. Vader leia boba kashyyyk dagobah jade kashyyyk. Lars amidala gonk lobot organa. Twi'lek darth gamorrean obi-wan boba moff. Yavin c-3p0 darth darth luke chewbacca han. Skywalker dooku c-3po owen. Leia jade alderaan jar dooku utapau tusken raider dantooine jawa. Anakin leia kessel jango bespin lando organa tatooine tusken raider. Mara ackbar mara calamari hutt qui-gonn dantooine.
+               </p>
+               <p>
+                  Yoda sidious lando padmé chewbacca fett. Maul calrissian boba lobot jade darth obi-wan. Wookiee darth ahsoka dagobah darth sidious naboo lars. Dooku skywalker skywalker ben luke windu. Wicket darth coruscant darth coruscant organa palpatine yoda padmé. Darth leia organa gonk lando mon mara hutt. Wookiee darth padmé windu hutt. Darth cade maul padmé grievous greedo moff dooku solo. Coruscant twi'lek dooku moff skywalker.
+               </p>
+            </div>
+
+      </div>
+
+      </div>
+    </div>
+      </section>
+
+
+</body>
+</html>
+
+{% endblock %}
